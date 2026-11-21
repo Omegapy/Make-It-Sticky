@@ -10,7 +10,7 @@ This file supplements the [Make It Sticky skill](../SKILL.md) with prompt patter
 
 **Interactive tutoring**
 
-> Teach me [TOPIC] with the Make It Sticky method. Ask one recall question at a time, wait for my answer, and revisit earlier stickies in new examples.
+> Teach me [TOPIC] with the Make It Sticky method. Use analogies often when they help me picture the idea, and add a little humor now and then if it helps me remember. Ask one recall question at a time, wait for my answer, and revisit earlier stickies in new examples.
 
 **Technical document**
 

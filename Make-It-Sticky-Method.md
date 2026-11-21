@@ -19,7 +19,7 @@ Do not force a metaphor into a simple factual answer, a formal artifact, or a se
 ## How the method works
 
 1. **Explain.** State the concept correctly, with enough context to understand it. Keep necessary technical terms and conditions.
-2. **Anchor.** Choose one memorable connection. Prefer an image, analogy, example, contrast, or short phrase that reflects how the concept works.
+2. **Anchor.** Choose one memorable connection. Use analogies often when a familiar comparison helps learners see how the idea works. A little humor can make the analogy easier to remember when it suits the learner and the subject. A mental image, concrete example, contrast, or short phrase can also make a good sticky.
 3. **Map.** Connect the parts of the anchor to the actual concept. Point out where the analogy stops being accurate if that limit matters.
 4. **Check.** In a teaching conversation, ask a brief recall or application question. Let the learner answer before giving feedback.
 5. **Reinforce.** Revisit the same anchor later and apply it to a different example. Recall is more useful than simply rereading the explanation.
@@ -32,9 +32,9 @@ Keep each sticky concise. The goal is a helpful connection, not a performance or
 
 **Explanation:** For classification, KNN predicts a label using the labels of the *k* nearest training examples. With a very small *k*, one noisy neighbor can have a large effect. If *k* is too large, nearby patterns can get lost among distant examples.
 
-**Sticky:** "Ask one stranger for directions and you may get bad advice. Ask a small crowd and the answer is steadier. Ask the whole city and the local knowledge gets drowned out."
+**Sticky:** "Ask one person for directions and you might pick the one holding the map upside down. Ask a few people nearby and one bad answer carries less weight. Ask the whole city and people across town can drown out the local advice."
 
-**How it maps:** One stranger represents *k* = 1, the small crowd represents a moderate *k*, and the whole city represents an excessively large *k*. This is a way to remember the tradeoff, not a rule that increasing *k* always improves predictions.
+**How it maps:** The person with the upside-down map represents a noisy neighbor. With *k* = 1, that one answer decides the prediction. Asking a few nearby people represents a moderate *k*, while asking the whole city represents an excessively large *k*. The best *k* depends on the data.
 
 **Recall:** Why might KNN with *k* = 1 be sensitive to a mislabeled training point?
 
@@ -72,7 +72,7 @@ You can use the method for one answer, an entire tutoring session, or an explana
 
 **Teaching request**
 
-> Teach me [TOPIC] with the Make It Sticky method. Explain the concept accurately and briefly, then give me one memorable sticky. Tell me how it maps to the real concept and where the analogy breaks down. Ask one recall or application question and let me answer. Bring back the same sticky later when it helps.
+> Teach me [TOPIC] with the Make It Sticky method. Explain the concept accurately and briefly, then give me one memorable sticky. Use an analogy if it makes the idea easier to picture, and add a little humor if it helps me remember it. Show how the sticky maps to the real concept, including any important limits. Ask one recall or application question and let me answer. Bring back the same sticky later when it helps.
 
 **For a document**
 
@@ -86,7 +86,7 @@ You can use the method for one answer, an entire tutoring session, or an explana
 
 If you use ChatGPT Memory and want the method considered across conversations, you can ask ChatGPT to remember this preference:
 
-> Remember that I prefer the **Make It Sticky method** when learning or discussing complex ideas. First explain the idea accurately, with enough context to understand it. When it helps, add a short memorable sticky, show how it maps to the real concept, and identify important limits. In interactive tutoring, ask me a brief recall or application question and revisit earlier stickies when relevant. Do not force analogies into simple answers, formal writing, or sensitive topics. Refer to this preference as the **Make It Sticky method**, not by an earlier name.
+> Remember that I prefer the **Make It Sticky method** when learning or discussing complex ideas. First explain the idea accurately, with enough context to understand it. When it helps, add a short memorable sticky, show how it maps to the real concept, and identify important limits. Use analogies often when they make the idea easier to understand, and occasionally add a little humor if it helps me remember. Use another kind of sticky when it fits better. In interactive tutoring, ask me a brief recall or application question and revisit earlier stickies when relevant. Do not force analogies into simple answers, formal writing, or sensitive topics. Refer to this preference as the **Make It Sticky method**, not by an earlier name.
 
 A memory preference may influence future answers, but it is not a guarantee that every response will follow a strict procedure. You can explicitly request the method when you need it. Saving or updating memory depends on the chat product and its settings.
 

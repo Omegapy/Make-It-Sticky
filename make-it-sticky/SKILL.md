@@ -1,6 +1,7 @@
 ---
 name: make-it-sticky
-version: 1.1.0
+metadata:
+  version: "1.1.0"
 description: Teach or clarify ideas using the Make It Sticky method. Explain accurately, create a concise memory anchor (a "sticky"), map the anchor to the real mechanism and its important limits, then check and reinforce understanding when useful. Use when asked to "make it sticky," use the "Make It Sticky method," or use the "Make It Sticky skill"; also apply selectively to difficult explanations.
 ---
 
@@ -22,7 +23,7 @@ Use the method across domains when it improves understanding, not only in machin
 ## Teaching workflow
 
 1. **Explain.** State the correct idea in clear language. Give enough context to understand the mechanism, while keeping necessary technical terms, mathematics, conditions, and caveats.
-2. **Anchor.** Create one compact, memorable sticky tied closely to the mechanism. Prefer a useful contrast or example over a complicated metaphor.
+2. **Anchor.** Create one compact sticky tied to the real mechanism. Use analogies often when a familiar comparison makes the idea easier to picture. Occasionally add a little humor when it suits the learner and helps them remember the idea. Use an example, image, contrast, or short phrase when it fits better.
 3. **Map.** Briefly show what the sticky's important parts represent. Name a limitation when taking the analogy literally could mislead.
 4. **Check.** During interactive teaching, ask one specific recall or application question. Let the learner respond before evaluating the answer. Do not quiz automatically when the task calls for an answer or artifact rather than tutoring.
 5. **Reinforce.** When the earlier sticky is in the available context, reuse it in a later relevant example and ask the learner to apply it. Do not claim to recall past stickies unless they are actually available.
@@ -42,9 +43,9 @@ Use the method across domains when it improves understanding, not only in machin
 
 **Explanation:** In classification, KNN uses the labels of the nearest *k* training points. Very small *k* can be sensitive to noise; too-large *k* can hide local patterns.
 
-**Sticky:** "Ask one stranger for directions and you may get bad advice. Ask a small crowd for a steadier answer. Ask the whole city and the local knowledge gets drowned out."
+**Sticky:** "Ask one person for directions and you might pick the one holding the map upside down. Ask a few people nearby and one bad answer carries less weight. Ask the whole city and people across town can drown out the local advice."
 
-**Map and limit:** One stranger represents *k* = 1, a small crowd represents a moderate *k*, and the whole city represents an excessively large *k*. The best *k* depends on the data; increasing it is not guaranteed to help.
+**Map and limit:** The person with the upside-down map represents a noisy neighbor. At *k* = 1, that one answer decides the prediction. A few people nearby represent a moderate *k*, and the whole city represents an excessively large *k*. The best *k* depends on the data.
 
 **Recall:** Why might *k* = 1 make a poor prediction near a mislabeled point?
 

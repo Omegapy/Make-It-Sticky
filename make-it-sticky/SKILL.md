@@ -1,0 +1,73 @@
+---
+name: make-it-sticky
+version: 1.1.0
+description: Teach or clarify ideas using the Make It Sticky method. Explain accurately, create a concise memory anchor (a "sticky"), map the anchor to the real mechanism and its important limits, then check and reinforce understanding when useful. Use when asked to "make it sticky," use the "Make It Sticky method," or use the "Make It Sticky skill"; also apply selectively to difficult explanations.
+---
+
+# Make It Sticky skill
+
+## Purpose
+
+Help people understand and retain ideas by pairing accurate explanations with short, memorable connections called **stickies**. A sticky may be an analogy, mental image, concrete example, contrast, or compact phrase. It is a memory anchor attached to a correct explanation, never a replacement for one.
+
+Use the method across domains when it improves understanding, not only in machine learning or education.
+
+## When to use it
+
+- Apply the method when a user explicitly asks for the **Make It Sticky method**, the **Make It Sticky skill**, or asks to **make an explanation sticky**.
+- Consider using it when explaining a difficult mechanism, several interacting steps, an easily confused distinction, or a decision with meaningful tradeoffs.
+- Adapt to the person's background, the available context, the requested depth, and whether the response is spoken or written.
+- Do not force it into short factual answers, formal artifacts, emotionally sensitive topics, source-bound verbatim work, or responses where a metaphor would distort the point. Honor requests to skip analogies or questions.
+
+## Teaching workflow
+
+1. **Explain.** State the correct idea in clear language. Give enough context to understand the mechanism, while keeping necessary technical terms, mathematics, conditions, and caveats.
+2. **Anchor.** Create one compact, memorable sticky tied closely to the mechanism. Prefer a useful contrast or example over a complicated metaphor.
+3. **Map.** Briefly show what the sticky's important parts represent. Name a limitation when taking the analogy literally could mislead.
+4. **Check.** During interactive teaching, ask one specific recall or application question. Let the learner respond before evaluating the answer. Do not quiz automatically when the task calls for an answer or artifact rather than tutoring.
+5. **Reinforce.** When the earlier sticky is in the available context, reuse it in a later relevant example and ask the learner to apply it. Do not claim to recall past stickies unless they are actually available.
+
+## Response guidance
+
+- The answer must remain correct and useful even if the sticky is removed.
+- Generally use one sticky per main concept. Keep it to one or two sentences unless more detail is needed to prevent misunderstanding.
+- Weave the anchor into the explanation naturally. A **Sticky:** label can help in lessons but is not required.
+- Distinguish an illustrative analogy from evidence, and preserve material uncertainty and exceptions.
+- Use the user's provided material as the authority for source-based tasks. Do not add unsupported facts to make an example more colorful.
+- If a sticky does not connect with the learner, try a materially different example rather than restating the same analogy.
+
+## Examples
+
+### K-nearest neighbors (KNN)
+
+**Explanation:** In classification, KNN uses the labels of the nearest *k* training points. Very small *k* can be sensitive to noise; too-large *k* can hide local patterns.
+
+**Sticky:** "Ask one stranger for directions and you may get bad advice. Ask a small crowd for a steadier answer. Ask the whole city and the local knowledge gets drowned out."
+
+**Map and limit:** One stranger represents *k* = 1, a small crowd represents a moderate *k*, and the whole city represents an excessively large *k*. The best *k* depends on the data; increasing it is not guaranteed to help.
+
+**Recall:** Why might *k* = 1 make a poor prediction near a mislabeled point?
+
+### Parameters versus hyperparameters
+
+**Explanation:** A fitted model learns parameters from training data. Hyperparameters determine aspects of the model or its training and are configured or selected through tuning.
+
+**Sticky:** "Parameters are learned. Hyperparameters set the learning rules."
+
+**Map and limit:** The difference concerns ordinary model fitting versus configuration and tuning, not who physically enters a value.
+
+### Functions and arguments
+
+**Explanation:** A function defines reusable behavior. Arguments supply values for a particular call.
+
+**Sticky:** "The function is the recipe; the arguments are today's ingredients."
+
+**Map and limit:** Recipe means reusable procedure; ingredients mean inputs. Real functions can also produce side effects or accept complex values.
+
+## Quality check
+
+Before responding, confirm that the explanation is correct, the sticky maps to the mechanism, important limitations are clear, and the analogy fits the audience and situation. Keep the output focused on the user's actual question.
+
+## More detail
+
+See [`references/method-guide.md`](references/method-guide.md) for prompts and optional teaching variations. This `SKILL.md` is complete on its own; the reference is supplemental.

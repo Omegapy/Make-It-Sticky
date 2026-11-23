@@ -1,6 +1,6 @@
 # Make It Sticky skill
 
-This folder contains the **Make It Sticky skill**, a reusable set of instructions for AI agents that teach or explain concepts. It uses accurate explanations, concise memory anchors called *stickies*, and recall practice when appropriate.
+This folder contains the **Make It Sticky skill**, a reusable set of instructions for AI agents that teach or explain concepts. It uses accurate explanations, concise memory anchors called *stickies*, and optional recall practice.
 
 The skill does not require ChatGPT Memory. An agent can use it whenever the host environment loads the instructions.
 
@@ -25,9 +25,9 @@ An agent may also use the method proactively for a difficult idea when an analog
 
 ## What to expect
 
-The agent should explain the idea correctly first, make one useful memory connection, relate that connection to the actual mechanism, and mention any important limit. In a tutoring session it can ask a question and return to the same anchor later.
+The agent explains the idea accurately, makes one useful memory connection, relates that connection to the actual mechanism, and mentions any important limit. It adapts the depth to your request and uses a metaphor when it helps explain the topic.
 
-The skill should not add a quiz to every answer or invent a metaphor for every topic. It should respect the user's requested depth, the available evidence, and the purpose of the response.
+Quick Check is off by default. The agent asks whether to activate it when you begin using the method and can explain the topic while you decide. Say yes to get a brief recall or application question. You can also specify on or off up front or change your choice during the session.
 
 ## Skill versus memory
 

@@ -1,8 +1,8 @@
 ---
 name: make-it-sticky
 metadata:
-  version: "1.1.0"
-description: Teach or clarify ideas using the Make It Sticky method. Explain accurately, create a concise memory anchor (a "sticky"), map the anchor to the real mechanism and its important limits, then check and reinforce understanding when useful. Use when asked to "make it sticky," use the "Make It Sticky method," or use the "Make It Sticky skill"; also apply selectively to difficult explanations.
+  version: "1.2.0"
+description: Teach or clarify ideas using the Make It Sticky method. Explain accurately, create a concise memory anchor (a "sticky"), and map it to the real mechanism and its important limits. Offer an optional Quick Check for recall or application. Use when asked to "make it sticky," use the "Make It Sticky method," or use the "Make It Sticky skill"; also apply selectively to difficult explanations.
 ---
 
 # Make It Sticky skill
@@ -20,13 +20,21 @@ Use the method across domains when it improves understanding, not only in machin
 - Adapt to the person's background, the available context, the requested depth, and whether the response is spoken or written.
 - Do not force it into short factual answers, formal artifacts, emotionally sensitive topics, source-bound verbatim work, or responses where a metaphor would distort the point. Honor requests to skip analogies or questions.
 
+## Quick Check
+
+Quick Check starts off for each new use of the method, whether it is one explanation or an ongoing tutoring session. At the start, ask in chat, “Do you want me to activate Quick Check?” Continue with the explanation in the same reply when the topic is known.
+
+Activate Quick Check only after a clear yes or an explicit request to turn it on or be quizzed. A no, an unclear answer, or no answer leaves it off. If the user already specified on or off, apply their choice without asking again. Keep the choice for the current use, and honor any request to turn it on or off later. Without an interactive chat, leave it off unless the user explicitly requested it.
+
+When it is on and the learner can respond, ask one specific recall or application question at a time. Let the learner answer before giving feedback. Keep these questions in the conversation when the main deliverable is an artifact.
+
 ## Teaching workflow
 
 1. **Explain.** State the correct idea in clear language. Give enough context to understand the mechanism, while keeping necessary technical terms, mathematics, conditions, and caveats.
 2. **Anchor.** Create one compact sticky tied to the real mechanism. Use analogies often when a familiar comparison makes the idea easier to picture. Occasionally add a little humor when it suits the learner and helps them remember the idea. Use an example, image, contrast, or short phrase when it fits better.
 3. **Map.** Briefly show what the sticky's important parts represent. Name a limitation when taking the analogy literally could mislead.
-4. **Check.** During interactive teaching, ask one specific recall or application question. Let the learner respond before evaluating the answer. Do not quiz automatically when the task calls for an answer or artifact rather than tutoring.
-5. **Reinforce.** When the earlier sticky is in the available context, reuse it in a later relevant example and ask the learner to apply it. Do not claim to recall past stickies unless they are actually available.
+4. **Check, if enabled.** Ask a brief recall or application question as described above.
+5. **Reinforce.** When the earlier sticky is available in context, reuse it in a later relevant example. Ask the learner to apply it only if Quick Check is on.
 
 ## Response guidance
 
@@ -47,7 +55,7 @@ Use the method across domains when it improves understanding, not only in machin
 
 **Map and limit:** The person with the upside-down map represents a noisy neighbor. At *k* = 1, that one answer decides the prediction. A few people nearby represent a moderate *k*, and the whole city represents an excessively large *k*. The best *k* depends on the data.
 
-**Recall:** Why might *k* = 1 make a poor prediction near a mislabeled point?
+**Quick Check (if enabled):** Why might *k* = 1 make a poor prediction near a mislabeled point?
 
 ### Parameters versus hyperparameters
 

@@ -1,6 +1,6 @@
 # Make It Sticky
 
-**Make It Sticky** is a way to explain ideas so they are easier to understand, remember, and use. It starts with an accurate explanation, adds a short memory anchor, and then gives the learner a chance to recall or apply the idea.
+**Make It Sticky** is a way to explain ideas so they are easier to understand, remember, and use. It starts with an accurate explanation and adds a short memory anchor. The optional [Quick Check](Make-It-Sticky-Method.md#quick-check) gives the learner a chance to recall or apply the idea and is off by default.
 
 A memory anchor, called a *sticky*, might be a concrete image, an analogy, a contrast, or a sentence that captures the main mechanism. The anchor supports the explanation. It never replaces it.
 

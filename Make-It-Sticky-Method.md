@@ -1,6 +1,6 @@
 # The Make It Sticky method
 
-Some concepts make sense when you hear them but are hard to recall later. The **Make It Sticky method** adds a memorable connection to a clear explanation, then uses recall and practice to help the idea stay available.
+Some concepts make sense when you hear them but are hard to recall later. The **Make It Sticky method** adds a memorable connection to a clear explanation and offers optional recall practice.
 
 ## What is a sticky?
 
@@ -21,10 +21,16 @@ Do not force a metaphor into a simple factual answer, a formal artifact, or a se
 1. **Explain.** State the concept correctly, with enough context to understand it. Keep necessary technical terms and conditions.
 2. **Anchor.** Choose one memorable connection. Use analogies often when a familiar comparison helps learners see how the idea works. A little humor can make the analogy easier to remember when it suits the learner and the subject. A mental image, concrete example, contrast, or short phrase can also make a good sticky.
 3. **Map.** Connect the parts of the anchor to the actual concept. Point out where the analogy stops being accurate if that limit matters.
-4. **Check.** In a teaching conversation, ask a brief recall or application question. Let the learner answer before giving feedback.
-5. **Reinforce.** Revisit the same anchor later and apply it to a different example. Recall is more useful than simply rereading the explanation.
+4. **Check, if enabled.** Ask a brief recall or application question. Let the learner answer before giving feedback.
+5. **Reinforce.** Revisit the same anchor later in a different example. Invite the learner to apply it when Quick Check is on.
 
 Keep each sticky concise. The goal is a helpful connection, not a performance or an elaborate story.
+
+### Quick Check
+
+Quick Check is off by default. When you start using the method, the assistant asks, “Do you want me to activate Quick Check?” It can give the explanation while you decide. Only a clear yes or an explicit request to turn on Quick Check or be quizzed activates it. If you say no, skip the question, or give an unclear answer, it stays off.
+
+You can specify on or off in your initial request or change your choice later. Your choice applies to the current explanation or tutoring session. The assistant asks again when you start a new use, unless you have already specified your choice for that use.
 
 ## Examples
 
@@ -36,7 +42,7 @@ Keep each sticky concise. The goal is a helpful connection, not a performance or
 
 **How it maps:** The person with the upside-down map represents a noisy neighbor. With *k* = 1, that one answer decides the prediction. Asking a few nearby people represents a moderate *k*, while asking the whole city represents an excessively large *k*. The best *k* depends on the data.
 
-**Recall:** Why might KNN with *k* = 1 be sensitive to a mislabeled training point?
+**Quick Check (if enabled):** Why might KNN with *k* = 1 be sensitive to a mislabeled training point?
 
 ### Machine learning: parameters and hyperparameters
 
@@ -72,7 +78,7 @@ You can use the method for one answer, an entire tutoring session, or an explana
 
 **Teaching request**
 
-> Teach me [TOPIC] with the Make It Sticky method. Explain the concept accurately and briefly, then give me one memorable sticky. Use an analogy if it makes the idea easier to picture, and add a little humor if it helps me remember it. Show how the sticky maps to the real concept, including any important limits. Ask one recall or application question and let me answer. Bring back the same sticky later when it helps.
+> Teach me [TOPIC] with the Make It Sticky method. Explain the concept accurately and briefly, then give me one memorable sticky. Use an analogy if it makes the idea easier to picture, and add a little humor if it helps me remember it. Show how the sticky maps to the real concept, including any important limits. Ask whether I want to activate Quick Check as you begin. If I say yes, ask one recall or application question and let me answer. Bring back the same sticky later when it helps.
 
 **For a document**
 
@@ -84,9 +90,11 @@ You can use the method for one answer, an entire tutoring session, or an explana
 
 ### Prompt to request a saved memory preference
 
-If you use ChatGPT Memory and want the method considered across conversations, you can ask ChatGPT to remember this preference:
+If you use ChatGPT Memory and want the method considered across conversations, use this prompt to save or update your preference.
 
-> Remember that I prefer the **Make It Sticky method** when learning or discussing complex ideas. First explain the idea accurately, with enough context to understand it. When it helps, add a short memorable sticky, show how it maps to the real concept, and identify important limits. Use analogies often when they make the idea easier to understand, and occasionally add a little humor if it helps me remember. Use another kind of sticky when it fits better. In interactive tutoring, ask me a brief recall or application question and revisit earlier stickies when relevant. Do not force analogies into simple answers, formal writing, or sensitive topics. Refer to this preference as the **Make It Sticky method**, not by an earlier name.
+> Remember that I prefer the **Make It Sticky method** when learning or discussing complex ideas. First explain the idea accurately, with enough context to understand it. When it helps, add a short memorable sticky, show how it maps to the real concept, and identify important limits. Use analogies often when they make the idea easier to understand, and occasionally add a little humor if it helps me remember. Use another kind of sticky when it fits better. Revisit earlier stickies when relevant. Do not force analogies into simple answers, formal writing, or sensitive topics. Refer to this preference as the **Make It Sticky method**.
+>
+> Keep Quick Check off by default for each new use. When we start using the method, ask in chat, “Do you want me to activate Quick Check?” Continue with the explanation while I decide. Activate it only after a clear yes or an explicit request to turn it on or be quizzed. A no, an unclear answer, or no answer leaves it off. If I already specified on or off, use my choice without asking again. Keep my choice for the current explanation or tutoring session, and let me turn it on or off later. When it is on and I can respond, ask one brief recall or application question at a time and wait for my answer before giving feedback.
 
 A memory preference may influence future answers, but it is not a guarantee that every response will follow a strict procedure. You can explicitly request the method when you need it. Saving or updating memory depends on the chat product and its settings.
 
@@ -108,6 +116,6 @@ Before using a sticky, ask whether it meets these tests:
 - Does the anchor help recall the mechanism rather than merely the label?
 - Is the mapping clear, including an important limit when needed?
 - Is it short enough to remember?
-- Can the learner explain or apply the idea without the analogy?
+- Would the explanation let the learner apply the idea without the analogy?
 
 **Core rule:** A good sticky makes the truth easier to retrieve, not easier to misunderstand.

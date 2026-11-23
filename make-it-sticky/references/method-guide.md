@@ -10,7 +10,11 @@ This file supplements the [Make It Sticky skill](../SKILL.md) with prompt patter
 
 **Interactive tutoring**
 
-> Teach me [TOPIC] with the Make It Sticky method. Use analogies often when they help me picture the idea, and add a little humor now and then if it helps me remember. Ask one recall question at a time, wait for my answer, and revisit earlier stickies in new examples.
+> Teach me [TOPIC] with the Make It Sticky method. Use analogies often when they help me picture the idea, and add a little humor now and then if it helps me remember. Revisit earlier stickies in new examples.
+
+**Interactive tutoring with Quick Check on**
+
+> Teach me [TOPIC] with the Make It Sticky method and turn on Quick Check. Ask one recall question at a time and wait for my answer before giving feedback.
 
 **Technical document**
 
@@ -44,10 +48,10 @@ This file supplements the [Make It Sticky skill](../SKILL.md) with prompt patter
 
 ## Teaching decisions
 
-- **Already understood:** A short contrast may be enough. Skip the quiz if it does not add value.
+- **Already understood:** A short contrast may be enough.
 - **Confusing mechanism:** Start with the correct steps. Use a sticky only after the learner has an accurate starting point.
 - **Repeated confusion:** Change the representation. Try a physical example, a numerical example, or a counterexample.
-- **Assessment:** Prefer a short transfer question that asks the learner to use the idea in a new case, not simply repeat a slogan.
+- **Quick Check:** When the learner has opted in, prefer a short question that asks them to use the idea in a new case.
 - **Long conversations:** Reuse an earlier sticky when it is available and relevant, but do not pretend to remember something that is not in context.
 
 A sticky succeeds when a learner can explain the concept correctly without relying on the metaphor.

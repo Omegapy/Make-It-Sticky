@@ -1,5 +1,11 @@
 # Make It Sticky: reference guide for agents
 
+<!--
+SPDX-FileCopyrightText: 2026 Alexander Samuel Ricciardi (Omegapy)
+SPDX-License-Identifier: Apache-2.0
+Original project: https://github.com/Omegapy/Make-It-Sticky
+-->
+
 This file supplements the [Make It Sticky skill](../SKILL.md) with prompt patterns and examples. The skill's main workflow is complete without this file.
 
 ## Quick prompts

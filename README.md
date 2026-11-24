@@ -1,5 +1,11 @@
 # Make It Sticky
 
+<!--
+SPDX-FileCopyrightText: 2026 Alexander Samuel Ricciardi (Omegapy)
+SPDX-License-Identifier: Apache-2.0
+Original project: https://github.com/Omegapy/Make-It-Sticky
+-->
+
 **Make It Sticky** is a way to explain ideas so they are easier to understand, remember, and use. It starts with an accurate explanation and adds a short memory anchor. The optional [Quick Check](Make-It-Sticky-Method.md#quick-check) gives the learner a chance to recall or apply the idea and is off by default.
 
 A memory anchor, called a *sticky*, might be a concrete image, an analogy, a contrast, or a sentence that captures the main mechanism. The anchor supports the explanation. It never replaces it.
@@ -26,9 +32,13 @@ The method works across subjects, including machine learning, programming, mathe
 ```text
 Make-It-Sticky/
 ├── README.md
+├── LICENSE
+├── NOTICE
 ├── Make-It-Sticky-Method.md
 └── make-it-sticky/
     ├── README.md
+    ├── LICENSE
+    ├── NOTICE
     ├── SKILL.md
     └── references/
         └── method-guide.md
@@ -39,3 +49,13 @@ Make-It-Sticky/
 **Explain accurately. Make it memorable. Retrieve and apply it.**
 
 A good sticky helps someone remember how something works, not just what it is called.
+
+## License and attribution
+
+Created by **Alexander Samuel Ricciardi (Omegapy)**. See [NOTICE](NOTICE) for the author's other aliases and the original project attribution.
+
+The Make It Sticky method, skill, and accompanying documentation are licensed under the [Apache License 2.0](LICENSE). You may use, adapt, and redistribute the licensed material, including commercially, subject to the license. When redistributing copies or derivative works, include the license, preserve applicable copyright and attribution notices (including the attribution in NOTICE), and identify modified files as required by Section 4.
+
+When copying the skill as a standalone folder, keep its LICENSE and NOTICE files with it. Attribution in lessons, generated explanations, or other materials that merely use the method is appreciated but is not an additional license condition.
+
+Suggested credit: *Make It Sticky method by Alexander Samuel Ricciardi (Omegapy), https://github.com/Omegapy/Make-It-Sticky.*

@@ -1,11 +1,19 @@
 ---
 name: make-it-sticky
+license: Apache-2.0
 metadata:
+  author: "Alexander Samuel Ricciardi (Omegapy)"
   version: "1.2.0"
 description: Teach or clarify ideas using the Make It Sticky method. Explain accurately, create a concise memory anchor (a "sticky"), and map it to the real mechanism and its important limits. Offer an optional Quick Check for recall or application. Use when asked to "make it sticky," use the "Make It Sticky method," or use the "Make It Sticky skill"; also apply selectively to difficult explanations.
 ---
 
 # Make It Sticky skill
+
+<!--
+SPDX-FileCopyrightText: 2026 Alexander Samuel Ricciardi (Omegapy)
+SPDX-License-Identifier: Apache-2.0
+Original project: https://github.com/Omegapy/Make-It-Sticky
+-->
 
 ## Purpose
 

@@ -1,5 +1,11 @@
 # The Make It Sticky method
 
+<!--
+SPDX-FileCopyrightText: 2026 Alexander Samuel Ricciardi (Omegapy)
+SPDX-License-Identifier: Apache-2.0
+Original project: https://github.com/Omegapy/Make-It-Sticky
+-->
+
 Some concepts make sense when you hear them but are hard to recall later. The **Make It Sticky method** adds a memorable connection to a clear explanation and offers optional recall practice.
 
 ## What is a sticky?
